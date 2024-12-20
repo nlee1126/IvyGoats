@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivy League College Consulting</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #a51c30; /* Harvard crimson */
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background-color: #8C1515; /* Stanford cardinal */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+        .form-embed iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+        }
+        .consultant {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .consultant img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+        .pricing, .success {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #2E2D25;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ivy League College Consulting</h1>
+        <p>Your trusted partner for admissions to top universities.</p>
+    </header>
+    <nav>
+        <a href="#form">Home</a>
+        <a href="#bios">Consultants</a>
+        <a href="#successes">Success Stories</a>
+        <a href="#pricing">Pricing</a>
+    </nav>
+    <main>
+        <!-- First Page: Form -->
+        <section id="form">
+            <h2>Schedule a Meeting</h2>
+            <p>Fill out the form below to get started on your Ivy League journey!</p>
+            <div class="form-embed">
+                <!-- Embed Google Form -->
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSew2F3uWJO2fy8rSWJdluxipqoR-cpNmDhjvIEbQ5sIBMIcmA/viewform?usp=preview"></iframe>
+            </div>
+            <p>Or, <a href="https://docs.google.com/forms/d/e/1FAIpQLSew2F3uWJO2fy8rSWJdluxipqoR-cpNmDhjvIEbQ5sIBMIcmA/viewform?usp=preview" target="_blank">click here</a> to open the form in a new tab.</p>
+        </section>
+
+        <!-- Second Page: Bios -->
+        <section id="bios">
+            <h2>Meet Our Consultants</h2>
+            <div class="consultant">
+                <img src="https://via.placeholder.com/100" alt="Consultant 1">
+                <div>
+                    <h3>Dr. John Smith</h3>
+                    <p>Harvard alumnus with 10 years of experience in admissions consulting. Specializes in essay writing and interview prep.</p>
+                </div>
+            </div>
+            <div class="consultant">
+                <img src="https://via.placeholder.com/100" alt="Consultant 2">
+                <div>
+                    <h3>Jane Doe</h3>
+                    <p>Stanford graduate and former admissions officer. Expert in crafting standout applications.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Third Page: Successes -->
+        <section id="successes">
+            <h2>Our Success Stories</h2>
+            <div class="success">
+                <div class="card">
+                    <h3>John Doe</h3>
+                    <p>Admitted to Harvard with a full scholarship. Developed a standout research project during our mentorship program.</p>
+                </div>
+                <div class="card">
+                    <h3>Emily Chen</h3>
+                    <p>Accepted into Stanford's prestigious engineering program with a stellar application crafted with our guidance.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fourth Page: Pricing -->
+        <section id="pricing">
+            <h2>Pricing and Deals</h2>
+            <div class="pricing">
+                <div class="card">
+                    <h3>Basic Package</h3>
+                    <p>$500 - Includes 3 consulting sessions and application review.</p>
+                </div>
+                <div class="card">
+                    <h3>Premium Package</h3>
+                    <p>$1500 - Comprehensive application support, essay editing, and interview prep.</p>
+                </div>
+                <div class="card">
+                    <h3>Exclusive Deal</h3>
+                    <p>10% off for early sign-ups before January 15th!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Ivy League College Consulting. All rights reserved.</p>
+    </footer>
+</body>
+</html>
